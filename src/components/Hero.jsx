@@ -1,6 +1,6 @@
 import { curve } from "../assets";
 import Button from "./Button";
-import CompanyLogos from "./CompanyLogos";
+// import CompanyLogos from "./CompanyLogos";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { useRef } from "react";
@@ -36,7 +36,7 @@ const Hero = () => {
            React Developer | Frontend Specializing in building responsive, scalable UI with React & Tailwind | Focused on clean code and performance-driven web development
             </p>
             <Button target="_blank" href="https://calendly.com/renukuratkar16/30min" white>
-                Book a Meeting
+                Connect Call
             </Button>
             <Button target="_blank" href="https://www.linkedin.com/in/renu-kuratkar-70769221a/" white className="ml-4">
                 Let's Connect
@@ -46,7 +46,7 @@ const Hero = () => {
             
         </div>
 
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        {/* <CompanyLogos className="hidden relative z-10 mt-20 lg:block" /> */}
     </div>
 
     {/* <BottomLine/> */}

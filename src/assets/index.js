@@ -58,6 +58,7 @@ import project1 from "./roadmap/image-1.png";
 import project2 from "./roadmap/image-2.png";
 import project3 from "./roadmap/image-3.svg";
 import project4 from "./roadmap/image-5.png";
+import project6 from "./roadmap/image-6.png";
 import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
@@ -86,11 +87,11 @@ import linkedin from "./socials/linkedin.svg";
 import github from "./socials/github.svg";
 import gmail from "./socials/gmail.svg";
 
-import geeksforgeeks from "./geeksforgeeks.svg";
-import scaler from "./scaler.svg";
-import tutorialspoint from "./tutorialspoint.svg";
-import peppercontent from "./peppercontent.svg";
-import proelevate from "./proelevate.svg";
+// import geeksforgeeks from "./geeksforgeeks.svg";
+// import scaler from "./scaler.svg";
+// import tutorialspoint from "./tutorialspoint.svg";
+// import peppercontent from "./peppercontent.svg";
+// import proelevate from "./proelevate.svg";
 
 export {
   bharti,
@@ -147,6 +148,7 @@ export {
   project2,
   project3,
   project4,
+  project6,
   undone,
   notification1,
   notification2,
@@ -171,9 +173,9 @@ export {
   linkedin,
   github,
   gmail,
-  geeksforgeeks,
-  scaler,
-  tutorialspoint,
-  peppercontent,
-  proelevate,
+  // geeksforgeeks,
+  // scaler,
+  // tutorialspoint,
+  // peppercontent,
+  // proelevate,
 };

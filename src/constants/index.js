@@ -16,16 +16,17 @@ import {
   project2,
   project3,
   project4,
+  project6,
   telegram,
   twitter,
   linkedin,
   github,
   gmail,
-  geeksforgeeks,
-  scaler,
-  tutorialspoint,
-  peppercontent,
-  proelevate,
+//   geeksforgeeks,
+//   scaler,
+//   tutorialspoint,
+//   peppercontent,
+//   proelevate,
   bharti,
   bhartiIcon,
 } from "../assets";
@@ -60,7 +61,7 @@ export const navigation = [
   },
 ];
 
-export const companyLogos = [geeksforgeeks, scaler, tutorialspoint, peppercontent, proelevate];
+// export const companyLogos = [geeksforgeeks, scaler, tutorialspoint, peppercontent, proelevate];
 
 export const projects = [
   {
@@ -83,12 +84,12 @@ export const projects = [
   },
   {
       id: "2",
-      title: "Linktree",
-      text: "A Linktree is a web page which consists stack of social media links and developed using Reactjs and Tailwind CSS with a Modern UI.",
-      date: "March 2024",
+      title: "CRM Panel",
+      text: "A sleek CRM panel built with React.js and Tailwind CSS for managing customers, leads, and interactions. It offers a responsive, modern UI to streamline business operations efficiently.",
+      date: "March 2026",
       status: "done",
-      imageUrl: bhartiIcon,
-      url: "https://github.com/bhartik021/linktree",
+      imageUrl: project6,
+      url: "https://crm-user-panel.vercel.app/",
   },
   {
       id: "3",
@@ -97,7 +98,8 @@ export const projects = [
       date: "March 2024",
       status: "progress",
       imageUrl: project3,
-      url: "https://github.com/bhartik021/scrap-ninja",
+      url: "",
+    //   url: "https://github.com/bhartik021/scrap-ninja",
   },
 ];
 
@@ -220,18 +222,18 @@ export const socials = [
       iconUrl: github,
       url: "https://github.com/renu-kuratkar",
   },
-  {
-      id: "2",
-      title: "Twitter",
-      iconUrl: twitter,
-      url: "https://twitter.com/bhartik021",
-  },
-  {
-      id: "3",
-      title: "Instagram",
-      iconUrl: instagram,
-      url: "https://www.instagram.com/bhartik021/",
-  },
+//   {
+//       id: "2",
+//       title: "Twitter",
+//       iconUrl: twitter,
+//       url: "https://twitter.com/bhartik021",
+//   },
+//   {
+//       id: "3",
+//       title: "Instagram",
+//       iconUrl: instagram,
+//       url: "https://www.instagram.com/bhartik021/",
+//   },
   {
       id: "4",
       title: "Gmail",
